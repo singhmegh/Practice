@@ -4,3 +4,6 @@
 - To find null values : isnull() 
 - After finding Null values use bfill()/ffill() to fill the value.
 - .shape tells you the dimensions of your DataFrame (or array).It returns a tuple.
+
+##Day 02 :
+  - 
