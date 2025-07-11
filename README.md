@@ -12,7 +12,7 @@
   - index= False : prevents Pandas from writing row numbers into the CSV
   - for replace we use (data[ ].replace(np.nan, " replace value ")).
 
-##Day 03:
+###Day 03:
     -idxmax/idxmin give the highest/lowest count
     -normalize=True: gets percentage instead of count.
     -.unstack(): makes the result into a table with rows as gender and columns as survival status.
