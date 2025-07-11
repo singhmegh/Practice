@@ -12,4 +12,15 @@
   - index= False : prevents Pandas from writing row numbers into the CSV
   - for replace we use (data[ ].replace(np.nan, " replace value ")).
 
- ##Day 03:
+##Day 03:
+    -idxmax/idxmin give the highest/lowest count
+    -normalize=True: gets percentage instead of count.
+    -.unstack(): makes the result into a table with rows as gender and columns as survival status.
+    -legend only shows for single rows/raw data ,for multiple legend we use patches.
+    -#data.loc[...] retrieves the full row for that index.
+
+##Day 04 :
+    - autopct="%1.1f%%" shows percentage on slices
+    -dropna() it drop missing values
+    - alpha ranges from 0.0 to 1.0 ,0.0 → completely transparent ,1.0 → completely opaque  
+    -.notna() is a method in Pandas that returns True for non-missing values (i.e., values that are not NaN), and False for missing values (NaN).
