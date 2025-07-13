@@ -24,3 +24,14 @@
     -dropna() it drop missing values
     - alpha ranges from 0.0 to 1.0 ,0.0 → completely transparent ,1.0 → completely opaque  
     -.notna() is a method in Pandas that returns True for non-missing values (i.e., values that are not NaN), and False for missing values (NaN).
+### Day 05 :
+-- (r',\s*(\w+\.)'):This is a regular expression (regex) used with str.extract() to pull out the title (like Mr., Mrs., Dr.) from the Name column in the  dataset.
+-- hue enable proper palette usage
+-- na avoid error if there is NaN value ,na = False
+-- \b means boundary so it did not count word like theodore.(r'\bthe\b').
+
+###Day06:
+-- pd.cut() splits continuous values into discrete bins.
+-- bins=4 it split it into 4 equal width-interval
+-- (r"^(\w+),") : it capture the lastname 
+--  plt.ylim(0, 100) : It sets the y-axis limits of your plot from 0 to 100, which makes sense when you’re plotting percentages (survival rate).
