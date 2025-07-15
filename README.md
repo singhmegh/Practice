@@ -45,4 +45,4 @@
 - Use value_counts() only when you want detailed breakdowns, but not for rate calculations directly.
 - pd.qcut():You want to divide data by distribution, like quartiles or deciles.
 - sum: total no. of survivors.
-- 
+- count : total no. of people in group.
