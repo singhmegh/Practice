@@ -30,8 +30,19 @@
 -na avoid error if there is NaN value ,na = False
 -\b means boundary so it did not count word like theodore.(r'\bthe\b').
 
-###Day06:
+### Day 06 :
 -pd.cut() splits continuous values into discrete bins.
 -bins=4 it split it into 4 equal width-interval
 -(r"^(\w+),") : it capture the lastname 
 -plt.ylim(0, 100) : It sets the y-axis limits of your plot from 0 to 100, which makes sense when you’re plotting percentages (survival rate).
+
+### Day 07 :
+- (sum/count)*100	Converts the survival rate to percent.
+- Use agg(['count', 'sum']) when you want to:
+- 1 Analyze survival rate
+- 2 Keep group-wise structure
+- 3 Perform further calculations
+- Use value_counts() only when you want detailed breakdowns, but not for rate calculations directly.
+- pd.qcut():You want to divide data by distribution, like quartiles or deciles.
+- sum: total no. of survivors.
+- 
