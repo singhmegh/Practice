@@ -49,4 +49,8 @@
 
 ### Day 08 : 
 - Number of Bins = Number of Edges − 1
+- 5 intervals = 5 labels
+
+### Day 09 :
+- Fare brackets mean dividing the continuous range of ticket prices (Fare) into discrete intervals (groups) to make analysis easier.
 - 
