@@ -58,3 +58,8 @@
 - expand=False returns a Series instead of a DataFrame.
 - .str.strip(): This removes any leading or trailing whitespace from the extracted title.
 - A pivot_table is a powerful tool to summarize and aggregate data.
+
+### Day 12 :
+- .size().unstack() → creates a DataFrame with Survived=0 and Survived=1 as columns
+-  max ensures all fares are included.
+-  
