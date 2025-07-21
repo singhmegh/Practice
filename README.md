@@ -62,4 +62,8 @@
 ### Day 12 :
 - .size().unstack() → creates a DataFrame with Survived=0 and Survived=1 as columns
 -  max ensures all fares are included.
--  
+- .apply(...) → applies a function to each row in the Fare column.
+- lambda x: x > avg_fare → anonymous function:
+-   1) x is the fare for each passenger.
+-   2) It checks: is this fare > average fare?
+-   3) Returns True if yes, False if not.
