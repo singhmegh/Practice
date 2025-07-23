@@ -67,3 +67,11 @@
 -   1) x is the fare for each passenger.
 -   2) It checks: is this fare > average fare?
 -   3) Returns True if yes, False if not.
+ 
+### Day 15 :
+- .map i encode the Sex column into 0 & 1
+- i make a new dataset from old data then split it into x,y
+- i apply train_test_split to distribute the data
+- then apply logistic regression model
+- its testing & training accuracy is something 78% & 79% respectively and it predict accurately almost.
+- lastly i make confusion matrix.
