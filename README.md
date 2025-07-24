@@ -75,3 +75,11 @@
 - then apply logistic regression model
 - its testing & training accuracy is something 78% & 79% respectively and it predict accurately almost.
 - lastly i make confusion matrix.
+
+### Day 16 :
+- Today i make Decision tree model on survivals
+- i make a new dataset with some features and encoding it by map function
+- use train_test_split method for training and testing the data
+- its traing &testing accuracy is 97% & 81% respectively but it is over fitting , still it give accurate prediction value
+- we used feature sekection method for selecting important features among them
+- and last i make confusion matrix .
