@@ -83,3 +83,11 @@
 - its traing &testing accuracy is 97% & 81% respectively but it is over fitting , still it give accurate prediction value
 - we used feature sekection method for selecting important features among them
 - and last i make confusion matrix .
+
+### Day 18 :
+- make a new data and encode it by label encoding method
+- implement the 3 models and get thier score
+- used feature selection for getting best features from data
+- make a confusion tree and calculate their precision score,recall score,f1 score and accuracy.
+- done hyper[
+- 
