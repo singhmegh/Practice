@@ -92,4 +92,10 @@
 - done hyperparameter tunning in random forest classifier model and get their best score and best parameters.
 - and last i done cross validation on 5 folds.
 - 
-- 
+
+### Day 19 :
+- first encode the required data
+- scaling by MinMaxScaler
+- Trained models in Logistic Regression,DecisionTreeClassifier,RandomForestClassifier,KNeighborsCla
+- make confusion tree and get their precision score,recall score ,f1 score & do cross validation.
+- done feature selection by Random Forest Classifier
