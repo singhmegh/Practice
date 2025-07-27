@@ -89,5 +89,7 @@
 - implement the 3 models and get thier score
 - used feature selection for getting best features from data
 - make a confusion tree and calculate their precision score,recall score,f1 score and accuracy.
-- done hyper[
+- done hyperparameter tunning in random forest classifier model and get their best score and best parameters.
+- and last i done cross validation on 5 folds.
+- 
 - 
