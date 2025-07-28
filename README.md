@@ -96,6 +96,6 @@
 ### Day 19 :
 - first encode the required data
 - scaling by MinMaxScaler
-- Trained models in Logistic Regression,DecisionTreeClassifier,RandomForestClassifier,KNeighborsCla
+- Trained models in Logistic Regression,DecisionTreeClassifier,RandomForestClassifier,KNeighborsClassifier
 - make confusion tree and get their precision score,recall score ,f1 score & do cross validation.
 - done feature selection by Random Forest Classifier
