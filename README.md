@@ -99,3 +99,13 @@
 - Trained models in Logistic Regression,DecisionTreeClassifier,RandomForestClassifier,KNeighborsClassifier
 - make confusion tree and get their precision score,recall score ,f1 score & do cross validation.
 - done feature selection by Random Forest Classifier
+
+### Day 21 :
+- df['column_name'].mode() returns a Series of the most frequent values (could be more than one).[0] takes the first mode from that list.
+- use LabelEncoder and map fun for encoding
+- find cross validation score of each model
+- do hard & soft voting
+- done feature selection for RandomForest
+- 
+- 
+
