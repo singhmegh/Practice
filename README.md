@@ -108,4 +108,5 @@
 - done feature selection for RandomForest
 - 
 - 
-
+### Day 24 :
+- If we use classification_report from sklearn.metrics, we do not need to import or use precision_score, recall_score, and f1_score separately, because classification_report already includes all of them.
