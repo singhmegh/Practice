@@ -110,3 +110,7 @@
 - 
 ### Day 24 :
 - If we use classification_report from sklearn.metrics, we do not need to import or use precision_score, recall_score, and f1_score separately, because classification_report already includes all of them.
+
+### Day 24 :
+- "round 2" means rounding the survival rates by 2 decimal places.
+- .reset_index() → turns the group labels (True/False) back into a regular column instead of an index.
