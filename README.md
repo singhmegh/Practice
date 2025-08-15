@@ -111,6 +111,14 @@
 ### Day 24 :
 - If we use classification_report from sklearn.metrics, we do not need to import or use precision_score, recall_score, and f1_score separately, because classification_report already includes all of them.
 
-### Day 24 :
+### Day 25 :
 - "round 2" means rounding the survival rates by 2 decimal places.
 - .reset_index() → turns the group labels (True/False) back into a regular column instead of an index.
+
+### Day 27 : 
+- data['AgeGroup'].unique():.unique() returns a NumPy array of all distinct values in that column.
+- subset is the filtered mini-dataset that contains only the rows for one specific AgeGroup in the current loop.
+- 1) subset contains only the passengers who are children (Age < 18).
+- 2) then subset contains only the adults and so on.
+- If we didn’t use subset and just trained on the whole dataset each time, every model would be identical — we’d lose the point of comparing Child vs Adult vs Senior survival prediction accuracy.
+- 
